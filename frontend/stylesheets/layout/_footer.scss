@@ -1,6 +1,6 @@
 .footer-about{
 	display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: row wrap;
     padding: 15px 5px;
     align-items: center;
@@ -19,7 +19,17 @@
 .footer-inner{
 	p{
 		font-family: 'Open Sans', sans-serif;
-		font-size: 13px;
+		font-size: 14px;
 		color: #e1e2e3;
 	}
+}
+@media screen and (max-width: 600px){
+    .footer-about{
+    	justify-content: space-around;
+    }
+    .footer-inner{
+    	p{
+    		font-size: 11px;
+    	}
+    }
 }
