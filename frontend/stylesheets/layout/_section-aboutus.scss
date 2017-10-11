@@ -1,0 +1,98 @@
+.section-aboutus{
+	border-bottom: 2px solid #ebeeef;
+}
+.aboutus-about{
+	display: flex;
+	justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.aboutus-description{
+	width: 650px;
+	p{
+		font-size: 16px;
+		color: #8d8f92;
+		font-family: 'Open Sans', sans-serif;
+		span{
+			font-weight: 800;
+		}
+	}
+}
+.aboutus-list{
+	display: flex;
+	padding: 0;
+}
+.card-aboutus {
+	a{
+		color: #fff;
+		font-size: 18px;
+	}
+    padding: 20px;
+    background: #c8cdd0;
+    margin-right: 1px;  
+}
+.card-aboutus:hover{
+	background: #d0d5d9;
+}
+
+
+.price-item{
+	display: flex;
+    align-items: end;
+}
+.price-list{
+	padding: 0px;
+}
+.price-about{
+	margin-top: -25px;
+    margin-left: 10px;
+}
+.span1::before{
+    content: '01';
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Conv_QuattrocentoSans-Regular';
+    display: block;
+    padding: 10px;
+    background: #23b7a4;
+}
+.span2::before{
+    content: '02';
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Conv_QuattrocentoSans-Regular';
+    display: block;
+    padding: 10px;
+    background: #23b7a4;
+}
+.span3::before{
+    content: '03';
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Conv_QuattrocentoSans-Regular';
+    display: block;
+    padding: 10px;
+    background: #23b7a4;
+}
+.price-title{
+	font-family: 'Conv_QuattrocentoSans-Regular';
+	font-size: 18px;
+	color: #000;
+	text-transform: uppercase;
+}
+.price-description{
+	font-size: 16px;
+	color: #8d8f92;
+	font-family: 'Open Sans', sans-serif;
+}
+@media screen and (max-width: 1104px){
+    .aboutus-about{
+    	padding: 0px 25px;
+    }
+    .aboutus-description{
+    	width: 100%;
+    }
+    .aboutus-skill-list{
+    	width: 100%;
+    }
+}

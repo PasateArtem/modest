@@ -1,0 +1,99 @@
+.section-main{
+	position: relative;
+}
+.main-about{
+	position: absolute;
+	top: 20%;
+}
+.main-title{
+	font-family: 'Conv_QuattrocentoSans-Regular';
+	font-size: 36px;
+	color: #fff;
+}
+.main-description{
+	p{
+		line-height: 25px;
+		font-size: 16px;
+		color: #fff;
+		font-family: 'Open Sans', sans-serif;
+	}
+}
+.button-view,
+.button-video{
+	background: none;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-family: 'Conv_QuattrocentoSans-Regular';
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+}
+.button-view:hover,
+.button-video:hover{
+	background: #23b7a4;
+	border: 2px solid #23b7a4;
+	outline: none;
+}
+.button-view {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px){
+	.main-about{
+        top: 0;
+    }
+    .main-title{
+    	font-size: 30px;
+    }
+    .main-description{
+    	p{
+    		font-size: 14px;
+    	}
+    }
+    .button-video,
+    .button-view{
+    	padding: 10px 15px;
+    }
+}
+@media screen and (max-width: 600px){
+	.main-title{
+    	font-size: 20px;
+    	margin: 10px 0;
+    }
+    .main-description{
+    	p{
+    		font-size: 14px;
+    		margin: 5px 0px;
+    	}
+    }
+    .button-video,
+    .button-view {
+        padding: 6px 10px;
+    }
+}
+@media screen and (max-width: 600px){
+	.main-description{
+    	p{
+    		font-size: 11px;
+    		line-height: 16px;
+
+    	}
+    }
+}
+@media screen and (max-width: 375px){
+	.main-description{
+    	p{
+    		line-height: 14px;
+    	}
+    }
+}
+@media screen and (max-width: 320px){
+	.main-title{
+		margin: 4px 0px 2px 0px;
+	}
+    .button-video,
+    .button-view {
+        font-size: 14px;
+    }
+}

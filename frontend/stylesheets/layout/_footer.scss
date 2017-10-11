@@ -1,0 +1,25 @@
+.footer-about{
+	display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 15px 5px;
+    align-items: center;
+}
+.footer-list{
+	display: flex;
+}
+.footer-item{
+	padding-right: 25px;	
+}
+.card-link{
+	a{
+		color: #fff;
+	}
+}
+.footer-inner{
+	p{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 13px;
+		color: #e1e2e3;
+	}
+}

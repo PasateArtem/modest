@@ -1,0 +1,23 @@
+.slick-slide{
+	img {
+		display: block;
+        height: auto;
+        max-width: 100%;
+	}  
+}
+
+.slider-nav{
+	display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 75%;
+    bottom: 0px;
+    z-index: 1;
+    cursor: pointer;
+    outline: none;
+}
+@media screen and (max-width: 768px){
+    .slider-nav{
+        display: none;
+    }
+}

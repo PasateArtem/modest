@@ -1,0 +1,115 @@
+.bg-dark{
+	background: #1d2126;
+}
+.header-about{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    position: relative;
+}
+.header-list{
+	display: flex;
+}
+.nav-item{
+	padding-left: 15px;
+	a{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		color: #fff;
+		padding: 5px 15px;
+		border: 1px solid transparent;
+	}
+	a:hover{
+		border: 1px solid #fff;
+		border-radius: 3px;
+	}
+}
+
+.nav-item{
+	.is-active{
+	    border: 1px solid #206c65;
+	    color: #206c65;
+	    border-radius: 3px;
+    }
+    .is-active:hover{
+    	color: #fff;
+    }
+}
+.auth_buttons{
+    display: none;
+}
+@media screen and (max-width: 950px){
+	.section-header{
+		.container{
+			padding: 0px;
+		}
+	}
+	.header-about{
+		padding: 20px 10px;
+	}
+    .header-menu{
+        background-color: none;
+        display: none;
+        position: absolute;
+        top: 73px;
+        right: 0;
+        z-index: 1;
+        background: #1d2126;
+        width: 100%;
+        text-align: center;
+    }
+    .header-list{
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 0px;
+    }
+    .nav-item{
+        display: block;
+        padding: 15px 0px 15px 0;
+        border-bottom: 1px solid #206c65;
+        a{
+            width: 100%;
+            padding-bottom: 0;
+            text-decoration: none;
+        }
+        a:hover{
+            border: none;
+            color: #206c65;
+        }
+    }
+    .auth_buttons {
+        display: block;
+        background-color: #206c65;
+        border: medium none;
+        font-size: 26px;
+        float: right;
+        width: 49px;
+        height: 33px;
+        border-radius: 2px;
+        outline: none;
+        position: relative;
+        top: 0px;
+        .fa{
+            color: #fff;
+        }
+    }
+    .nav-item{
+	    .is-active{
+           border: none;
+           color: #fff;
+	    }
+	    .is-active:hover{
+    	   color: #206c65;
+        }
+	}
+}
+@media screen and (min-width: 951px){
+    .header-menu{
+        display: block !important;
+    }
+    .header-list{
+        display: flex;
+    }
+}

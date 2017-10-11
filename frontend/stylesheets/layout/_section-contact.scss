@@ -1,0 +1,142 @@
+.geo-location{
+	img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+.contact-list{
+	display: flex;
+    justify-content: space-around;
+}
+
+
+// .form-group-top{
+// 	label{
+// 		display: block;
+// 	}
+// }
+// .form-control{
+	
+// }
+.contact-item{
+	position: relative;
+	h4{
+		font-size: 20px;
+		font-family: 'Conv_QuattrocentoSans-Regular';
+        color: #000;
+        text-transform: uppercase;
+	}
+	p{
+		font-family: 'Open Sans', sans-serif;
+		color: #aeafb1;
+		font-size: 16px;
+		padding-bottom: 15px;
+		line-height: 25px;
+	}
+}
+.panel{
+	width: 500px;
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+}
+.form-group-input{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+legend{
+   font-family: 'Conv_QuattrocentoSans-Regular';
+   font-size: 14px;
+   color: #eaeef1;
+   padding-left: 6px;
+}
+.form-control {
+    width: 95%;
+    /* padding: 5px; */
+    padding: 4px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background: #eaeef1;
+    font-size: 14px;
+    font-family: 'Conv_QuattrocentoSans-Regular';
+    color: #fff;
+    outline: none;
+}
+.input-left,
+.input-right{
+	width: 235px;
+}
+.form-group-textarea{
+	padding: 25px 0px 15px 0px;
+}
+
+textarea{
+	border: none;
+    background: #eaeef1;
+    border-radius: 4px;
+    width: 97.5%;
+    padding: 4px;
+    font-size: 14px;
+    font-family: 'Conv_QuattrocentoSans-Regular';
+    color: #fff;
+    outline: none;
+}
+.button-send{
+	padding: 12px 18px;
+    background: #23b7a4;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Conv_QuattrocentoSans-Regular';
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+}
+.contact-about{
+	padding: 70px 0px;
+}
+@media screen and (max-width: 1104px){
+    .contact-item{
+        text-align: center;
+    }
+    .panel{
+        width: 97%;
+        position: inherit;
+        text-align: left;
+    }
+    .input-left,
+    .input-right{
+        width: 49%;
+    }
+    .button-send{
+        width: 98.5%;
+    }
+}
+@media screen and (max-width: 600px){
+    .panel{
+        padding: 10px;
+    }
+    .contact-item{
+        p{
+            font-size: 14px;
+        }
+        h4{
+            font-size: 18px;
+        }
+    }
+}
+@media screen and (max-width: 375px){
+    .panel{
+        padding: 5px;
+    }
+    .form-group-actions{
+        padding: 0px 5px;
+    }
+    .button-send{
+        width: 100%;
+    }
+}

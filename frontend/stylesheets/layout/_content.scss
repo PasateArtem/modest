@@ -1,0 +1,60 @@
+.about-title,
+.team-title,
+.services-title,
+.contact-title{
+	font-family: 'Conv_QuattrocentoSans-Regular';
+	font-size: 36px;
+	color: #000;
+	display: flex;
+    align-items: flex-end;
+}
+.contact-title::before,
+.services-title::before,
+.team-title::before,
+.about-title::before{
+	content: '';
+	width: 8px;
+	height: 38px;
+	background: #e1e6ea;
+	display: flex;
+    margin-right: 10px;
+}
+
+.work-title,
+.features-title{
+	font-family: 'Conv_QuattrocentoSans-Regular';
+	font-size: 36px;
+	color: #fff;
+	display: flex;
+    align-items: flex-end;
+
+}
+.features-title::before,
+.work-title::before{
+    content: '';
+	width: 8px;
+	height: 38px;
+	background: #4e5a62;
+	display: flex;
+    margin-right: 10px;
+}
+@media screen and (max-width: 320px){
+	.about-title,
+    .team-title,
+    .services-title,
+    .contact-title,
+    .work-title,
+    .features-title{
+    	font-size: 32px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+.team-about{
+	padding: 70px 0px;
+}
+.team-item{
+	padding-bottom: 20px;
+}
+.card-team{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+}
+.card-description{
+	background: #e1e6ea;
+	em{
+		font-size: 16px;
+		color: #000;
+		font-family: 'Conv_QuattrocentoSans-Regular';
+		// font: inherit;
+		font-style: normal;
+		margin: 9px 15px;
+		display: block;
+	}
+	p{
+		font-family: 'Open Sans', sans-serif;
+		color: #8d8f92;
+		font-size: 14px;
+		margin: 9px 15px;
+	}
+}
+.card-team:hover  .card-description {
+	background: #3a454d;
+	em,
+	p{
+		color: #fff;
+	}
+}
+.team-list{
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+.card-link-item{
+	padding: 15px;
+    background: #3a454d;
+    margin-right: 1px;
+    a{
+    	color: #fff;
+    }
+    
+}
+.card-link-item:hover{
+	background: #4e5a62;
+}
+.card-hover{
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 263px;
+	height: 300px;
+	background:  rgba(255, 255, 255, 0.3);
+}
+.card-link-list{
+	display: flex;
+	position: relative;
+    top: 110px;
+    left: 25px;
+}
+.card-team:hover .card-hover{
+	display: block;
+}
