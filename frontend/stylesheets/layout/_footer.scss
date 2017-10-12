@@ -5,17 +5,18 @@
     padding: 15px 5px;
     align-items: center;
 }
-.footer-list{
+.list-card-link{
 	display: flex;
+    .list-item{
+        padding-right: 25px;
+        .card-link{
+            a{
+                color: #fff;
+            }
+        }    
+    }
 }
-.footer-item{
-	padding-right: 25px;	
-}
-.card-link{
-	a{
-		color: #fff;
-	}
-}
+
 .footer-inner{
 	p{
 		font-family: 'Open Sans', sans-serif;

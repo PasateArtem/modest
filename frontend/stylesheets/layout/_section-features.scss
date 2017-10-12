@@ -1,44 +1,50 @@
-.features-list{
+.list-card-features{
 	display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    .list-item{
+        width: 360px;
+        padding: 10px 0px;
+    }
 }
-.features-item{
-    width: 360px;
-    padding: 10px 0px;
-}
-.features-img{
-	padding-bottom: 10px;
-	img{
-		max-width: 100%;
-		height: auto;
-	}
-}
+
 .card-features{
-	h4{
+	.card-image{
+	    padding-bottom: 10px;
+	    max-width: 360px;
+	    img{
+		    max-width: 100%;
+		    height: auto;
+	    }
+    }
+	.card-title{
         font-size: 18px;
-        color: #fff;
+        color: #d7d8d9;
         font-family: 'Conv_QuattrocentoSans-Regular';
         margin: 10px 0px;
         text-transform: uppercase;
         padding-bottom: 10px;
 	}
-	p{
+	.card-description{
 		font-family: 'Open Sans', sans-serif;
-		color: #fff;
+		color: #dcdfe1;
 		font-size: 16px;
 		text-align: left;
+		line-height: 24px;
 	}
 }
 .features-about{
-	padding: 70px 0px;
+	padding: 1px 0px 90px;
 }
 @media screen and (max-width: 375px){
+	.features-about{
+	    padding: 1px 0px 40px;
+    }
 	.card-features{
-		h4{
+		.card-title{
 			font-size: 16px;
 		}
-		p{
+		.card-description{
 			font-size: 13px;
 		}
 	}
