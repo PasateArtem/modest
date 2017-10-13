@@ -80,6 +80,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid transparent;
 }
 .span2{
     color: #fff;
@@ -92,6 +93,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid transparent;
 }
 .span3{
     color: #fff;
@@ -104,6 +106,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid transparent;
+}
+
+.span1:hover,
+.span2:hover,
+.span3:hover{
+    color: #23b7a4;
+    background: #fff;
+    border: 1px solid #23b7a4;
 }
 
 @media screen and (max-width: 1104px){

@@ -47,11 +47,15 @@
     flex-flow: row wrap;
     justify-content: space-between;
 }
-legend{
+label{
    font-family: 'Conv_QuattrocentoSans-Regular';
    font-size: 14px;
    color: #eaeef1;
    padding-left: 6px;
+}
+.form-control:focus ~ label,
+label:active{
+   color: #23b7a4;
 }
 .form-control {
     width: 95%;
@@ -65,13 +69,15 @@ legend{
     color: #23b7a4;
     outline: none;
 }
-.form-control:focus {
+.form-control:focus{
     background: #fff;
     border: 1px solid #23b7a4;
 }
 .input-left,
 .input-right{
 	width: 235px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .form-group-textarea{
@@ -92,6 +98,14 @@ textarea{
 textarea:focus{
     background: #fff;
     border: 1px solid #23b7a4;
+}
+.textarea{
+    display: flex;
+    flex-direction: column-reverse;
+}
+textarea:focus ~ label,
+label:active{
+   color: #23b7a4;
 }
 .button-send{
 	padding: 12px 18px;

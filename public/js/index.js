@@ -33,13 +33,15 @@ requirejs([
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 1
+        slidesToShow: 1,
+        autoplay: true
       }
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1
+        slidesToShow: 1,
+        autoplay: true
       }
     }
     // You can unslick at a given breakpoint now by adding:
