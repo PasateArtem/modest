@@ -53,10 +53,7 @@ label{
    color: #eaeef1;
    padding-left: 6px;
 }
-.form-control:focus ~ label,
-label:active{
-   color: #23b7a4;
-}
+
 .form-control {
     width: 95%;
     padding: 4px;
@@ -103,10 +100,7 @@ textarea:focus{
     display: flex;
     flex-direction: column-reverse;
 }
-textarea:focus ~ label,
-label:active{
-   color: #23b7a4;
-}
+
 .button-send{
 	padding: 12px 18px;
     background: #23b7a4;

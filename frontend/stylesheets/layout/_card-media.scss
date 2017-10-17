@@ -20,3 +20,17 @@
         display: none;
     }
 }
+@media screen and (max-width: 375px){
+    .slick-slide{
+        img {
+            height: 140px;
+        }  
+    }
+}
+@media screen and (max-width: 320px){
+    .slick-slide{
+        img {
+            height: 130px;
+        }  
+    }
+}

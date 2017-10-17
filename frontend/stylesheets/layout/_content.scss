@@ -56,11 +56,16 @@
 
 
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px){
     .dark-title,
     .light-title{
-    	font-size: 32px;
-    	padding: 30px 0px 10px;
+    	font-size: 26px;
+    	padding: 25px 0px 0px;
+    	margin-top: 0px;
+    }
+    .light-title::before,
+    .dark-title::before{
+    	height: 30px;
     }
 }
 
